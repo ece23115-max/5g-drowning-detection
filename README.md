@@ -13,4 +13,4 @@ This project architecture mitigates local network constraints and reduces hardwa
 ## 🚀 Key Features
 * **Edge AI Offloading:** Shifts computational strain away from local capture devices to an edge cloud server.
 * **SDN-Driven 5G Topology:** Simulated high-frequency UDP video streaming over a Software-Defined Network core without dropping packets.
-* **Firewall & Isolation Bypass:** Configured network address translation (NAT) to safely tunnel past restrictive local firewalls and AP isolation rules.
+* configured iptables MASQUERADE (NAT) routing over USB tethering to keep the UDP stream uninterrupted.
